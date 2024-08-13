@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-pop tracking-wider font-light;
+  }
+
+  body {
+    @apply text-blue-50 font-light;
+  }
+
+  img {
+    @apply block w-full h-auto m-[0_auto];
+  }
+}
